@@ -12,6 +12,7 @@ exports.app.use(express_1.default.json());
 exports.app.use("/api/books", book_controller_1.booksRoutes);
 exports.app.use("/api/borrow", borrow_controller_1.borrowBookRoutes);
 exports.app.get("/", (req, res) => {
+    res.send('server is running');
     console.log("server is running");
 });
 exports.default = exports.app;
