@@ -9,6 +9,7 @@ app.use("/api/books", booksRoutes);
 app.use("/api/borrow", borrowBookRoutes);
 
 app.get("/", (req: Request, res: Response) => {
+    res.send('server is running')
    console.log("server is running");
 });
 
