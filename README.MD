@@ -54,5 +54,5 @@ This API allows clients to:
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/library-management-api.git
+git clone https://github.com/Rayhan-Rakib1/L2_assignment_3.git
 cd library-management-api
